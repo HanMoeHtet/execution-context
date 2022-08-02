@@ -6,3 +6,6 @@ python3 python/main.py &
 echo "Python server is running at localhost:8002"
 ./java/gradlew bootRun &
 echo "Java server is running at localhost:8003"
+dotnet run --project csharp
+echo "C# server is running at localhost:8004"
+

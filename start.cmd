@@ -7,3 +7,5 @@ START /b python3 python/main.py
 echo "Python server is running at localhost:8002"
 START /b .\java\gradlew -p java bootRun
 echo "Java server is running at localhost:8003"
+START /b dotnet run --project csharp
+echo "C# server is running at localhost:8004"
